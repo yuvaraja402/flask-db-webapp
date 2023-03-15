@@ -16,7 +16,7 @@ def homepage():
 
 
 if __name__=="__main__":
-    app.run(host="localhost", port=8004,debug=True)
+    app.run()
 
 
 # I wanted to pass list and set to html page and its working
