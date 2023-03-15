@@ -20,4 +20,4 @@ if __name__=="__main__":
 
 
 # I wanted to pass list and set to html page and its working
-# next connect database and store usernames and passwords
+# 
