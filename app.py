@@ -15,9 +15,5 @@ def homepage():
     return render_template('page.html',username=username,sorted = sorted)
 
 
-if __name__=="__main__":
-    app.run()
-
-
-# I wanted to pass list and set to html page and its working
-# 
+if __name__ == "__main__":
+    app.run(debug=True)
