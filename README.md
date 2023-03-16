@@ -8,7 +8,8 @@ Wanted to learn flask in local environment (put within python3's VENV)
 
 
 
+
+
 - Try Git method to push code
 -  Then try docker for pushing to deployment
     - Try making docker image before like environment before starting to develop code (dont know if possible)
-    
