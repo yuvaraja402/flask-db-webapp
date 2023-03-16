@@ -6,9 +6,9 @@ Wanted to learn flask in local environment (put within python3's VENV)
 - next connect database and store usernames and passwords
 
 
+<br>
 
-
-
+#
 
 - Try Git method to push code
 -  Then try docker for pushing to deployment
