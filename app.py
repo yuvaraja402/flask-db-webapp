@@ -14,4 +14,4 @@ def index():
     return render_template('index.html',username=username,sorted=sorted)
 
 if __name__ == '__main__':
-   app.run()
+   app.run(host="localhost", port=8000)
