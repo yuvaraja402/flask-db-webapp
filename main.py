@@ -11,7 +11,7 @@ def index():
     if request.method == 'POST':
         username.append(request.form['name'])
         sorted = set(username)
-    return render_template('index.html',username=username,sorted=sorted)
+    return render_template('index.html',username=username)
 
 if __name__ == '__main__':
-   app.run(host="localhost", port=8000)
+   app.run(host='127.0.0.1', port=8080, debug=True)
