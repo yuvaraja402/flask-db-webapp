@@ -1,20 +1,30 @@
 <!doctype html>
 <html>
-<head>
-    <title>User sign-in</title>
-</head>
+    <head>
+        <title>Lottery Draw</title>
+    </head>
 
 
     <body>
-        <form method="post">
-            <label>Name:</label><br>
-            <input type=text name=name><br><br>
+        <form action="/" method="POST">
+            <h1>Lottery Draw</h1>
+            <p>Lottery spin after every 5th user visit<br>
+            <p>Enroll with details<br><br>
+            <label>Your name:</label><br>
+            <input type=text name=username><br><br>
+
+            <label>Enter lucky draw number in (Range - 1 to 5):</label><br>
+            <input type=number name=number><br><br>
+
+            <a href="/submit"><input type="submit" value=Submit!></a>
+            <p>Current User visit - {{VisitorNumber}}<br><br>
+            <p>Usernames are : {{User}}</p>
+            <p>Lucky draw number submitted : {{UserNumber}}</p><br><br>
+
+            Lucky draw won by {{Winner}}</p><br>
+
             
-            <input type="submit" value=Submit!>        
-            <p>The stored usernames are : <br>
-            <p>{{username}}</p>
-            <p>Distinct idiots here : <br>
-            <p>{{sorted}}<p>
+
         </form>
     </body>
 </html>
