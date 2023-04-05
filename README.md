@@ -5,8 +5,7 @@ Wanted to learn flask in local environment (put within python3's VENV)
 - Run this app in Azure webApp
 - next connect database and store usernames and passwords
 
-
-<br>
+Currently just looking to house the function app of AZURE
 
 
 - Try Git method to push code
